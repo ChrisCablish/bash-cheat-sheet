@@ -1,17 +1,40 @@
+/*Universal*/
+
 * {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
 
+/*HTML Elements*/
+
+body {
+    background-color: rgba(42, 43, 45, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color:rgba(42, 43, 45, 0.7);
+    color: bisque;
+    padding: 16px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*Table Elements*/
+
 td,
 th {
     border: 1px solid black;
     min-width: 100px;
-}
-
-body {
-    background-color: rgba(42, 43, 45, 0.3);
 }
 
 thead {
@@ -28,10 +51,7 @@ td {
     padding: 8px;
 }
 
-h1 {
-    text-align: center;
-    margin: 50px;
-}
+/*Colors*/
 
 .blue {
     background-color: rgba(45, 168, 216, 0.7);
@@ -43,16 +63,5 @@ h1 {
     color: #2a2b2dff;
 }
 
-h2 {
-    text-align: center;
-}
-
-footer {
-    background-color:rgba(42, 43, 45, 0.7);
-    color: bisque;
-    padding: 16px;
-    text-align: center;
-    margin-top: 100px;
-}
 
 
