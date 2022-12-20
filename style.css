@@ -21,7 +21,7 @@ thead {
 
 table {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 32px auto;
 }
 
 td {
@@ -30,28 +30,8 @@ td {
 
 h1 {
     text-align: center;
-    margin: 100px;
+    margin: 50px;
 }
-
-/*.pwd-row {
-    background-color: rgba(45, 168, 216, 0.7);
-    color: #2a2b2dff;
-}
-
-.ls-row {
-    background-color: rgb(217, 81, 78,0.5);
-    color: #2a2b2dff;
-}
-
-.cd-row {
-    background-color: rgba(45, 168, 216, 0.7);
-    color: #2a2b2dff;
-}
-
-.mkdir-row {
-    background-color: rgb(217, 81, 78,0.5);
-    color: #2a2b2dff;
-}*/
 
 .blue {
     background-color: rgba(45, 168, 216, 0.7);
@@ -61,6 +41,18 @@ h1 {
 .red {
     background-color: rgb(217, 81, 78,0.5);
     color: #2a2b2dff;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color:rgba(42, 43, 45, 0.7);
+    color: bisque;
+    padding: 16px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 
